@@ -2,12 +2,25 @@ project:
   type: website
 
 website:
-  title: "quantitative_methodsii.github.io"
+  title: "Methods for Research and Policy Evaluation"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: session1.qmd
+        text: Session 1
+      - href: session2.qmd
+        text: Session 2
+      - href: session3.qmd
+        text: Session 3
+      - href: session4.qmd
+        text: Session 4
+      - href: session5.qmd
+        text: Session 5
+      - href: session6.qmd
+        text: Session 6
+      - href: about.qmd
+        text: About
 
 format:
   html:
