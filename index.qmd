@@ -1,11 +1,16 @@
 ---
-title: "Quantitative methods"
+title: "Methods for Research and Policy Evaluation"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This website aims to support the class 'Methods for Research and Policy Evaluation', thaught in the school of Public Affairs of Sciences Po.
 
 ```{r}
 1 + 1
 ```
+
+$$
+\begin{equation}
+\hat{\beta} = (X'X)^{-1}X'y
+\end{equation}
+$$
+
