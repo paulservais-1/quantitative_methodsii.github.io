@@ -68,6 +68,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
@@ -215,8 +216,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#r" id="toc-r" class="nav-link active" data-scroll-target="#r">R</a></li>
-  <li><a href="#stata" id="toc-stata" class="nav-link" data-scroll-target="#stata">Stata</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
+  <li><a href="#example-r-code" id="toc-example-r-code" class="nav-link" data-scroll-target="#example-r-code">Example R code</a></li>
   </ul>
 </nav>
     </div>
@@ -254,15 +254,13 @@ window.Quarto = {
 \begin{equation}
 \hat{\beta} = (X'X)^{-1}X'y
 \end{equation}
-\]</span> ## Example: Linear Regression {.tabset}</p>
+\]</span> ## OLS Estimation {.tabset}</p>
 <section id="r" class="level3">
 <h3 class="anchored" data-anchor-id="r">R</h3>
 </section>
-<section id="stata" class="level3">
-<h3 class="anchored" data-anchor-id="stata">Stata</h3>
-</section>
-<section id="python" class="level3">
-<h3 class="anchored" data-anchor-id="python">Python</h3>
+<section id="example-r-code" class="level1">
+<h1>Example R code</h1>
+<p>df &lt;- data.frame(x = rnorm(100), y = rnorm(100)) model &lt;- lm(y ~ x, data = df) summary(model)</p>
 
 
 </section>
@@ -270,6 +268,10 @@ window.Quarto = {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+    tabsets.forEach(function(tabset) {
+      const tabby = new Tabby('#' + tabset.id);
+    });
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
