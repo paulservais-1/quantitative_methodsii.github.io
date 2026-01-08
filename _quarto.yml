@@ -2,8 +2,7 @@ project:
   type: website
 
 website:
-  title: "Methods for Research and Policy Evaluation"
-  url: "https://paulservais-1.github.io/methods_policyevaluation/"
+  title: "Methods for Research and Policy Evaluation" 
   navbar:
     left:
       - href: index.qmd
