@@ -1,0 +1,10 @@
+---
+title: Session 1 — Descriptive statistics
+toc: true
+toc-depth: 3
+---
+
+
+# Introduction
+
+## Motivation

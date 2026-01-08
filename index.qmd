@@ -2,7 +2,7 @@
 title: "Methods for Research and Policy Evaluation"
 ---
 
-This website aims to support the class 'Methods for Research and Policy Evaluation', thaught in the school of Public Affairs of Sciences Po.
+This website aims to support the class 'Methods for Research and Policy Evaluation', thaught in the school of Public Affairs of Sciences Po. The objective o
 
 ```{r}
 1 + 1
