@@ -28,8 +28,13 @@ $$
 \hat{\beta} = (X'X)^{-1}X'y
 \end{equation}
 $$
-## Example: Linear Regression {.tabset}
+## OLS Estimation {.tabset}
 
 ### R
-### Stata
-### Python
+
+```{r}
+# Example R code
+df <- data.frame(x = rnorm(100), y = rnorm(100))
+model <- lm(y ~ x, data = df)
+summary(model)
+
