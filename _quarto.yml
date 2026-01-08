@@ -7,18 +7,20 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: session1.qmd
-        text: Session 1
-      - href: session2.qmd
-        text: Session 2
-      - href: session3.qmd
-        text: Session 3
-      - href: session4.qmd
-        text: Session 4
-      - href: session5.qmd
-        text: Session 5
-      - href: session6.qmd
-        text: Session 6
+      - text: Sessions
+      - menu:
+          - text: "Session 1: Introduction"
+            href: sessions/session1.qmd
+          - text: "Session 2: Descriptive Statistics"
+            href: sessions/session2.qmd
+          - text: "Session 3: Probability"
+            href: sessions/session3.qmd
+          - text: "Session 4: Regression"
+            href: sessions/session4.qmd
+          - text: "Session 5: Probability"
+            href: sessions/session5.qmd
+          - text: "Session 6: Regression"
+            href: sessions/session6.qmd
       - href: about.qmd
         text: About
 
