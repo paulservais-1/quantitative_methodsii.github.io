@@ -5,6 +5,8 @@ toc: true
 
 This website aims to support the class 'Methods for Research and Policy Evaluation', thaught in the school of Public Affairs of Sciences Po. 
 
+# Course description
+
 The objective of this course is to introduce quantitative methods for causal
 inference, relying on mathematical formalization and applying them to concrete research situations.
 Students will learn how to handle data - assembling a dataset, cleaning it, and preparing it for
@@ -19,37 +21,77 @@ cultivate critical thinking regarding the strengths and limitations of such rese
 therefore particularly well suited for students who wish to develop their skills in computer science,
 mathematics, and quantitative research methods.
 
-```{r}
-1 + 1
-```
+# Course objectives
 
-$$
-\begin{equation}
-\hat{\beta} = (X'X)^{-1}X'y
-\end{equation}
-$$
-First example:
+* Identify and apply quantitative methods central to the evaluation of public policies
+* Understand and compare key methodologies used in quantitative research for public policy
+evaluation
+* Acquire practical research skills necessary for effective policy analysis and evaluation
+* Develop programming skills for data management and analysis and research applications in
+public policy
 
-::: {.panel-tabset group="language"}
-# R
-```{r}
-2 + 2
-```
-# Python
-```{python}
-2 + 2
-```
-:::
+# Prerequisites
 
-Second example:
+* Basic coding skills (beginners welcome) - Stata, R, or Python are all acceptable. Students
+should know how to use an IDE of their choice, how to import data, and have some
+introductory knowledge of a programming language.
+* Basic statistical concepts - e.g. students should know what a mean, a median, a standard
+deviation, a statistical sample and statistical inference are.
 
-::: {.panel-tabset group="language"}
-# R
-```{r}
-1 + 2
-```
-# Python
-```{python}
-1 + 2
-```
-:::
+# Course validation 
+
+The course will be evaluated using a simplified pass/fail system. Evaluation will be based on a short
+report (five pages) replicating a scientific article or a report that uses a causal inference method,
+provided by the lecturers at the beginning of the semester. The writing of this report will be
+supported incrementally throughout the semester, with guidance provided during each class, so that
+students can progress step by step in the making of the paper.
+
+# Course format
+
+The course is structured with a 1-hour lecture (CM) followed by a 1-hour practical session (TP).
+Students are required to have a computer with RStudio or Stata installed (Stata licenses are available
+through Sciences Po). Each session begins with an introduction to the methods to be used, during
+which their mathematical formalization is covered. The second part of the session focuses on
+applying these methods to real-world data using RStudio or Stata. Classes are held every two weeks
+for a total of 2 hours and are conducted in English.
+
+# References
+
+## Online resources
+
+* De Chaisemartin, Clément &amp; d’Haultfœuille, Xavier. Credible Answers to Hard Questions:
+DiD for Natural Experiments. SSRN. (2023)
+* Cunningham, Scott. Causal Inference: The Mixtape. (2021) 
+Available at: <https://mixtape.scunning.com/>. 
+This resource provides an introduction to causal inference methods, aimed at
+helping social scientists determine causal relationships. It includes modeling
+techniques and coding instructions for both R and Stata.
+* Huntington-Klein. The Effect: An Introduction to Research Design and Causality. (2021) Available at: <https://theeffectbook.net/>
+This resource introduces students to research design and causality, particularly in
+the context of observational data.
+
+## Books
+
+* Angrist, Joshua & Pischke, Jörn-Steffen. Mostly Harmless Econometrics: An Empiricist’s
+Companion. 2009, Princeton University Press.
+* Greene, William. Econometric Analysis - 8th ed. 2019. Pearson.
+* Heiss, Florian. Using R for Introductory Econometrics - 2nd ed. 2020. Independently
+Published.
+* Hurlin, Christophe &amp; Mignon, Valérie. Statistique et probabilités en économie-gestion - 2e
+ed. 2022, Dunod.
+* Mignon, Valérie. Econométrie : Théorie et applications - 2e éd. 2022, Economica.
+* Spiegelhalter, David. The Art of Statistics: Learning from Data. 2019, Pelican.
+* Wooldridge, Jeffrey. Introductory Econometrics: A Modern Approach - 8th ed. 2025.
+Cengage Learning.
+
+
+## Videos
+
+A selection of video resources relevant to the course
+
+* Ben Lambert. Full Channel. YouTube. Available at: <www.youtube.com/@SpartacanUsuals> This YouTube channel offers detailed explanations of undergraduate and graduate econometrics courses, emphasizing intuition and examples over advanced mathematics.
+
+* LISER. “DiD Training with Prof. de Chaisemartin.” YouTube. Available at:
+<www.youtube.com/watch?v=d2T3QmGWOn0&amp;pp=ygURZGUgY2hhaXNlbWFydGluZSA%3D>. This YouTube series offers an in-depth course on DiD, reviewing fundamental concepts, progressing to advanced techniques, while highlighting the latest innovations driving the ongoing “DiD revolution.” The course is led by Prof. Clément de Chaisemartin.
+
+* Taylor Wright. “Two-Way Fixed Effects Regressions with Several Treatments.” YouTube. Available at: <https://www.youtube.com/watch?v=UHeJoc27qEM> Prof. Clément de Chaisemartin presents his work with Prof. Xavier d’Haultfœuille. The paper shows that Two-Way Fixed Effects (TWFE) regressions are prone to bias from heterogeneous effects and contamination. The authors propose a robust DiD estimator with results differing from TWFE in their application.

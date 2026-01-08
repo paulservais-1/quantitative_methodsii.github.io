@@ -3,7 +3,7 @@ title: "About"
 toc: True
 ---
 
-#Authors
+# Authors
 
 Arielle COHEN TANUGI-CARRESSE is a PhD Candidate in Economics at Université Paris Nanterre and
 Research Assistant with the “Management in Innovative Health” at EDHEC Business School. Her

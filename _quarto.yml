@@ -21,6 +21,21 @@ website:
             href: sessions/session5.qmd
           - text: "Session 6: Regression"
             href: sessions/session6.qmd
+       
+      - text: Homeworks
+      - menu:
+          - text: "Session 1: Introduction"
+            href: homeworks/homework1.qmd
+          - text: "Session 2: Descriptive Statistics"
+            href: homeworks/homework2.qmd
+          - text: "Session 3: Probability"
+            href: homeworks/homework3.qmd
+          - text: "Session 4: Regression"
+            href: homeworks/homework4.qmd
+          - text: "Session 5: Probability"
+            href: homeworks/homework5.qmd
+          - text: "Session 6: Regression"
+            href: homeworks/homework6.qmd
       - href: about.qmd
         text: About
 

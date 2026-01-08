@@ -7,4 +7,37 @@ toc-depth: 3
 
 # Introduction
 
-## Motivation
+
+# Theoretical background
+
+
+# Exercices 
+
+
+
+```{r}
+1 + 1
+```
+
+$$
+\begin{equation}
+\hat{\beta} = (X'X)^{-1}X'y
+\end{equation}
+$$
+
+Second example:
+
+::: {.panel-tabset}
+# R
+```{r}
+1 + 2
+```
+# Stata 
+```stata
+1 + 2
+```
+# Python
+```python
+1 + 2
+```
+:::

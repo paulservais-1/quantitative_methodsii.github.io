@@ -4,13 +4,41 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "#Authors\nArielle COHEN TANUGI-CARRESSE is a PhD Candidate in Economics at Université Paris Nanterre and Research Assistant with the “Management in Innovative Health” at EDHEC Business School. Her research focuses on health economics and policy evaluation, particularly how economic shocks affect the health of aging populations in Europe. French-American, she has academic experience in both France and the United States. She can be contacted at arielle.cohen\nPaul SERVAIS is a PhD Candidate in political science (comparative politics) in the Center for European and Comparative Politics of Sciences Po. His research analyses the electoral impacts of climate change’s consequences in France and Western Europe, with a particular focus on territorial cleavages (urban-rural, center-periphery). His work combines quantitative and qualitative research methods."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quantitative methods",
+    "title": "Methods for Research and Policy Evaluation",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This website aims to support the class ‘Methods for Research and Policy Evaluation’, thaught in the school of Public Affairs of Sciences Po."
+  },
+  {
+    "objectID": "index.html#books",
+    "href": "index.html#books",
+    "title": "Methods for Research and Policy Evaluation",
+    "section": "Books",
+    "text": "Books\n\nAngrist, Joshua & Pischke, Jörn-Steffen. Mostly Harmless Econometrics: An Empiricist’s Companion. 2009, Princeton University Press.\nGreene, William. Econometric Analysis - 8th ed. 2019. Pearson.\nHeiss, Florian. Using R for Introductory Econometrics - 2nd ed. 2020. Independently Published.\nHurlin, Christophe & Mignon, Valérie. Statistique et probabilités en économie-gestion - 2e ed. 2022, Dunod.\nMignon, Valérie. Econométrie : Théorie et applications - 2e éd. 2022, Economica.\nSpiegelhalter, David. The Art of Statistics: Learning from Data. 2019, Pelican.\nWooldridge, Jeffrey. Introductory Econometrics: A Modern Approach - 8th ed. 2025. Cengage Learning."
+  },
+  {
+    "objectID": "index.html#online-resources",
+    "href": "index.html#online-resources",
+    "title": "Methods for Research and Policy Evaluation",
+    "section": "Online resources",
+    "text": "Online resources\n\nDe Chaisemartin, Clément & d’Haultfœuille, Xavier. Credible Answers to Hard Questions: DiD for Natural Experiments. SSRN. (2023)\nCunningham, Scott. Causal Inference: The Mixtape. (2021) Available at: https://mixtape.scunning.com/. This resource provides an introduction to causal inference methods, aimed at helping social scientists determine causal relationships. It includes modeling techniques and coding instructions for both R and Stata.\nHuntington-Klein. The Effect: An Introduction to Research Design and Causality. (2021) Available at: https://theeffectbook.net/ This resource introduces students to research design and causality, particularly in the context of observational data."
+  },
+  {
+    "objectID": "index.html#videos",
+    "href": "index.html#videos",
+    "title": "Methods for Research and Policy Evaluation",
+    "section": "Videos",
+    "text": "Videos\nA selection of video resources relevant to the course\n\nBen Lambert. Full Channel. YouTube. Available at: www.youtube.com/@SpartacanUsuals This YouTube channel offers detailed explanations of undergraduate and graduate econometrics courses, emphasizing intuition and examples over advanced mathematics.\nLISER. “DiD Training with Prof. de Chaisemartin.” YouTube. Available at: &lt;www.youtube.com/watch?v=d2T3QmGWOn0&pp=ygURZGUgY2hhaXNlbWFydGluZSA%3D&gt;. This YouTube series offers an in-depth course on DiD, reviewing fundamental concepts, progressing to advanced techniques, while highlighting the latest innovations driving the ongoing “DiD revolution.” The course is led by Prof. Clément de Chaisemartin.\nTaylor Wright. “Two-Way Fixed Effects Regressions with Several Treatments.” YouTube. Available at: https://www.youtube.com/watch?v=UHeJoc27qEM Prof. Clément de Chaisemartin presents his work with Prof. Xavier d’Haultfœuille. The paper shows that Two-Way Fixed Effects (TWFE) regressions are prone to bias from heterogeneous effects and contamination. The authors propose a robust DiD estimator with results differing from TWFE in their application."
+  },
+  {
+    "objectID": "sessions/session1.html",
+    "href": "sessions/session1.html",
+    "title": "Session 1 — Descriptive statistics",
+    "section": "",
+    "text": "Introduction\n\n\nTheoretical background\n\n\nExercices\n\n1 + 1\n\n[1] 2\n\n\n\\[\n\\begin{equation}\n\\hat{\\beta} = (X'X)^{-1}X'y\n\\end{equation}\n\\]\nSecond example:\n\nRStataPython\n\n\n\n1 + 2\n\n[1] 3\n\n\n\n\n1 + 2\n\n\n1 + 2"
   }
 ]
