@@ -1,8 +1,23 @@
 ---
 title: "Methods for Research and Policy Evaluation"
+toc: true
 ---
 
-This website aims to support the class 'Methods for Research and Policy Evaluation', thaught in the school of Public Affairs of Sciences Po. The objective o
+This website aims to support the class 'Methods for Research and Policy Evaluation', thaught in the school of Public Affairs of Sciences Po. 
+
+The objective of this course is to introduce quantitative methods for causal
+inference, relying on mathematical formalization and applying them to concrete research situations.
+Students will learn how to handle data - assembling a dataset, cleaning it, and preparing it for
+quantitative analysis. The methods covered will include a review of linear models (simple and
+multiple regressions) and nonlinear models (probit, logit), before moving on to the core of the
+course: causal inference, namely DiD, RDD, and IV (2SLS, 2SRI). Each session will be divided equally
+between the presentation of methods and their mathematical formulation, and in-class exercises
+designed to help students master the associated coding techniques. The final goal is to replicate a
+scientific article that applies one or more of these methods, enabling students to develop technical
+skills useful for research or for the quantitative evaluation of public policies. Another objective is to
+cultivate critical thinking regarding the strengths and limitations of such research methods. It is
+therefore particularly well suited for students who wish to develop their skills in computer science,
+mathematics, and quantitative research methods.
 
 ```{r}
 1 + 1
@@ -13,4 +28,8 @@ $$
 \hat{\beta} = (X'X)^{-1}X'y
 \end{equation}
 $$
+## Example: Linear Regression {.tabset}
 
+### R
+### Stata
+### Python
